@@ -1,0 +1,13 @@
+body {
+    background: whitesmoke;            /*linear-gradient( #bdc3c7, #2c3e50); */
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
