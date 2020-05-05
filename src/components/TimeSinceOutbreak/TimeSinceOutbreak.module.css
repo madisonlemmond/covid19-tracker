@@ -1,0 +1,89 @@
+.container {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 30vh;
+    width: 100vw;
+    background-color: #DA3F3F;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 1.5rem;
+    margin: 0;
+}
+
+
+.clock {
+    color: black;
+    height: 20vh;
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 3rem;
+    
+}
+
+.cardContent {
+    padding: 10px !important;
+}
+
+.card {
+    width: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 0 2%;
+}
+
+/*.time {
+    font-size: 1.5em;
+    padding: 10px;
+}*/
+
+.wrapper {
+    margin-right: 0.5rem;
+    text-align: center;
+    vertical-align: top;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.space {
+    margin-top: 0.6em;
+    margin-right: 0.2em;
+}
+
+@media (max-width: 770px) {
+    .container {
+        font-size: 1.5em;
+        font-weight: bold;
+        flex-direction: column;
+        padding: 2em;
+    }
+    
+    .card {
+        margin: 2% 0 !important;
+        width: 40px;
+        height: 50px;
+    }
+
+    .clock {
+        margin: 20px;
+    }
+
+
+    .time {
+        font-size: 1em;
+    }
+
+    .space {
+        margin-top: 0.9em;
+        margin-right: 0.3em;
+    }
+}
