@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-//import CountUp from 'react-countup';
 import { Card, Grid, Typography, CardContent} from '@material-ui/core';
 import { Spring } from 'react-spring/renderprops';
 import cx from 'classnames';

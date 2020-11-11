@@ -1,0 +1,19 @@
+.container {
+    padding: 15px !important;
+}
+
+.button {
+    background-color: #DA3F3F !important;
+    color: whitesmoke !important;
+}
+
+@media (max-width: 770px) {
+    .buttonGroup {
+       width: 90% !important;
+       height: 2em;
+    }
+
+    .button {
+        font-size: 2% !important;
+    }
+}
